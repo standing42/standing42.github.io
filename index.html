@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>This is Gia</title>
+			<link rel="stylesheet" type="text/css" href="cv.css">
+			<script>
+				window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+				    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				        document.getElementById("myBtn").style.display = "block";
+				    } else {
+				        document.getElementById("myBtn").style.display = "none";
+				    }
+				}
+
+				function topFunction() {
+				    document.body.scrollTop = 0; 
+				    document.documentElement.scrollTop = 0; 
+				}
+
+			</script>
+
+		</head>
+		<body>
+
+			<div class="container">
+				<nav>
+		    		<ul>
+		        		<li><a href="#">Home</a></li>
+		        		<li><a href="/resume.pdf" class = "download" download>Download CV</a></li>
+		        		<li><a href="#python">Projects</a></li>
+		        		<li><a href="https://standing42.github.io/color_sort/">Color game</a></li>
+						<li><a href="http://www.pic.ucla.edu/~kuohujun/invitation/login.php">Invitation</a></li>	
+		    		</ul>
+				</nav>
+				<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>	
+
+
+				<div class="intro">
+
+					<div class="parallel">
+						<h1>Gia He</h1>
+						<br/>
+						<ul>
+							<li>Rookie Web Developer</li>
+							<li>Front end &amp; Back end</li>
+							<li>Willing to learn: EVERYTHING</li>
+							<li>Junior at UCLA</li>
+						</ul>
+					</div>
+
+				
+
+					<div class="parallel">				
+						<address>	
+							<br/>
+							Address:<br/>				
+		          			&nbsp; &nbsp; 655 Kelton Ave, Los Angeles, CA 90024<br/><br/>
+							<abbr title="phone">Cell:</abbr><br/>
+							&nbsp; &nbsp; (510) 590-0803<br/><br/>
+							Email:<br/>
+							&nbsp; &nbsp; <a href="mailto:standingshady42@gmail.com" style="opacity:1;"><u>standingshady42@gmail.com</u></a><br/><br/>
+							<br/><br/>
+		          		</address>
+	          		</div>
+				</div>
+
+				<hr/>
+				<div class="education">
+
+					<h2>Education</h2>
+				</div>
+
+				<div class="education" id="edu">
+
+					<p><strong>University of California, Los Angeles  &nbsp; · &nbsp;2014-present</strong> <br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;School : College of Letter and Science <br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;Major : Mathematics in Computation<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;Expected Graduation : Spring 2018 <br/>
+	          		&nbsp;&nbsp;&nbsp;&nbsp;Accumulated GPA : 3.2<br/> 
+	          		<br/>
+	         		<strong> The Hill School   &nbsp; ·  &nbsp; 2011-2014</strong>  <br/><br/><br/>
+	          		</p>
+
+				</div>
+
+				<hr/>
+
+				<div class="skill">
+
+					<h2>Languages</h2>
+				</div>
+
+				<div class="skill" id="language">
+					<ul>
+						<li>&bull;HTML/HTML5</li>
+						<li>&bull;CSS</li>
+						<li>&bull;Javascript</li>
+					</ul>
+					<ul>
+						<li>&bull;PHP</li>
+						<li>&bull;AJAX</li>
+						<li>&bull;Python</li>
+						<li>&bull;C++</li>
+					</ul>
+				</div>
+
+				<hr/>
+
+			
+				
+				<h2 style="margin-left: 100px;">Projects</h2>
+				<h3>Math Applied to Bone Microstructure</h3>
+				<div class  = "projects" id="python">
+						
+						<p class="para">
+						Write and debug Python files to assist with the preparation of mathematical-engineering models of bone microstructure to further the understanding of the scenario of fragility fractures. We use Python to do interpolation on cubes of bone tissues. Use Abaqus to validate the results.<br/></p>
+						<p class="highlight">***Due to University policy, all files are confidential, therefore cannot be presented here.***</p>
+
+					   	<p style="margin-top: 0px;"><strong>Director: Maria-Grazia Ascenzi, PhD</strong><br/>
+					   	Adjunct Professor and Researcher<br/>
+					   	Department of Orthopaedic Surgery<br/>
+					   	UCLA
+					   	</p>
+						
+				</div>
+					
+					<h3> Color Sorting Game</h3>
+					<div class = "projects" id = "color_sort">
+						
+						<p class="para">
+							Color stripes ranging between red and pink are generated and positioned randomly. Players  sort the stripes in order as directed by the two cubes at bottom of the page. The game then gives a score that evaluates the player's ability to discern small differences between colors. 
+						</p>
+						<p><a href="https://standing42.github.io/color_sort/">Click here to play!</a></p>
+						<p><a href="https://github.com/standing42/color_sort">Click here to view source code</a></p>
+						<p style="text-align: center;">
+							<label>Sample page</label><br/>
+							<img src="color_sort_begin.jpg" alt="color_sort_begin.jpg"/>
+							<img src="color_sort_finish.jpg" alt="color_sort_finish.jpg"/>
+						</p>
+					</div>
+
+					<div class="projects" id = "invitation">
+						<h3>Invitation</h3>
+						<p class="para">
+							After registration, users can send invitation to invite other users to do something together, including but not limited to watching movies, dining out, playing soccer, flying to Paris...etc. All invitations are displayed on a calendar. By clicking on a specific date, a user can view all invitations that are effective on that day.</p> 
+							<p class="highlight">*** NOTE: The website is still under construction. More features will be available soon.***
+						</p>
+						<p><a href="http://www.pic.ucla.edu/~kuohujun/invitation/login.php">Click here to view demo! ( You can log in with the username harry and the password potter)</a></p>
+						<p><a href="https://github.com/standing42/invitation">Click here to view source code</a></p>
+						<p style="text-align: center; ">
+							<label>Sample page</label><br/>
+							<img src="home.png" alt="home.png"/>
+							<img src="list.jpg" alt="list.jpg"/>
+						</p>
+					</div>
+
+
+				<footer>
+
+		    		<ul>
+		        		<li><a href="mailto:standingshady42@gmail.com">email</a></li>
+		        		<li><a href="https://github.com/standing42">standing42</a></li>
+					</ul>
+				</footer>
+
+			</div>
+		</body>
+	</html>

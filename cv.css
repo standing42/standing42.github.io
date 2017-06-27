@@ -1,0 +1,157 @@
+body{
+    margin: 100px auto;
+    width: 90%;
+    background-image:url("brushed.png");
+    background-size: cover;
+    line-height: 150%; 
+    font-size: 18px;
+
+}
+
+.container{
+    width: 80%; 
+    background-color: #F5F5F5; 
+    margin:0 auto;
+    border-radius: 20px
+}
+
+nav ul, footer ul {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin-left:75px;
+    list-style: none;
+    font-weight: bold;
+    text-align: left; 
+}
+
+nav ul{
+    padding:70px;
+    margin:0 auto;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+ul li{
+    margin:0px 0px 5px 0px;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.5; 
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family:'Comic Sans MS', 'Cursive', 'Sans-Serif';
+    text-align: center;
+}
+
+.intro{
+    width: 80%; 
+    margin: 0 auto;
+    border: 10px inset;
+}
+
+.parallel{
+    display: inline-block;
+    padding:30px 20px 0px 10px ;
+    vertical-align: text-top;
+    margin-left: 35px;
+}
+
+.education{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    vertical-align: text-top;
+    line-height: 180%;
+}
+
+#edu{
+    margin-left: 150px;
+}
+
+hr{
+    opacity: 0.3; 
+}
+
+.skill{
+    margin-left: 100px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#language{
+    margin-left: 70px; 
+}
+
+#language ul li{
+    display: inline-block;
+    padding: 20px; 
+    font-size: 20px;
+}
+
+.projects{
+    margin-left: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: #444444;
+}
+
+h3{
+    text-align: center; 
+    margin-top:40px; 
+    margin-bottom:5px;
+    font-size:23px;
+}
+
+.para{
+    text-indent: 30px; 
+    margin-top:0px;
+    margin-bottom: 5px;
+}
+
+.highlight{
+    text-align: center; 
+    margin-top: 0px; 
+    color: #DC143C; 
+    opacity: 0.7; 
+    margin-bottom: 5px; 
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 50px; 
+    left: 40px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    color: white;
+    background-color: #555; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+}
+
+#myBtn:hover {
+    background-color: #d5d5d5; 
+}
+
+
+
+
